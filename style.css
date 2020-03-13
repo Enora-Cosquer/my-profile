@@ -1,0 +1,101 @@
+/* Colors and fonts */
+body {
+  color: #575F7D;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(100,100,120,0.5), rgba(0,0,230,0.5)), url("https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/88118851_1764501433689270_3651454691092463616_o.jpg?_nc_cat=108&_nc_sid=dd9801&_nc_ohc=Stth3KDTm8gAX_5xBhw&_nc_ht=scontent-cdg2-1.xx&oh=5dbafd149c68f8f91380681b02b8327f&oe=5E916245");
+}
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase
+}
+h1{
+  color: #424874;
+  letter-spacing: 6px;
+  font-size: 34px;
+  font-weight: 700px;
+}
+h2{
+  color: #3D5975;
+  font-size: 24px;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+a{
+  text-decoration: none;
+  color: #99B2CA;
+  font-weight: bold;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+}
+a:hover {
+  color: #424874;
+}
+p {
+  text-align: justify;
+}
+
+/*Custom design with class*/
+.container{
+  width: 700px;
+  margin: 10px auto;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white{
+  margin: 10px 0px;
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+.image-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.button-blue{
+  font-size: 18px;
+  background-color: #99B2CA;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.button-blue:hover{
+  background-color: #424874;
+  color: white;
+}
+.list-inline li {
+  display: inline;
+  padding: 40px;
+}
+
+/*Specific adjustments with id*/
+#introduction p {
+  margin-bottom: 40px;
+}
+#FollowMe{
+  text-align: center;
+}
+#list-bullet {
+  text-align: justify;
+}
